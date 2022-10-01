@@ -27,20 +27,21 @@
     <section id="form-city-list">
 <!-- Sección donde se debe colocar el formulario, con el select y el
 botón de consultar --> 
-        <p>Esta App te permite consultar el clima de una ciudad en particular utilizando la <br> API de <a href="https://openweathermap.org/api" target="_blank">OpenWeatherMap</a> </p>
-        <p>Para poder consultar el clima, primero debera <a href="add-city.html">Agregar una ciudad</a> y luego <br> seleccionar la Ciudad en cuestión desde la página <a href="index.html">Clima.</a></p>
-        </section>
+        <p>Esta App te permite consultar el clima de una ciudad en particular utilizando la API de <a href="https://openweathermap.org/api" target="_blank">OpenWeatherMap</a> <br><br>Para poder consultar el clima, primero debera <a href="add-city.html">Agregar una ciudad</a> y luego seleccionar la Ciudad en cuestión desde la página <a href="index.html">Clima.</a></p>   
             <form id="formulario">
                 <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre"><br>
+                <input type="text" id="nombre" name="nombre" class="ingresoDatos">
                 <label for="email">Email:</label>
-                <input type="text" id="email" name="email"><br>
+                <input type="text" id="email" name="email" class="ingresoDatos">
                 <label for="email">Mensaje:</label>
-                <textarea id="" name="" rows="" cols=""></textarea><br>
-                <button>Limpiar</button>
-                <button>Enviar</button>
+                <textarea id="" name="" rows="10" cols="30" class="ingresoDatos"></textarea>
+                <div class="botones">
+                    <button class="boton">Limpiar</button>
+                    <button class="boton">Enviar</button> 
+                </div>  
+                <button class="cartelEmail">Ingrese un <b>Email</b> válido</button>    
             </form>
-        </section>
+    </section>            
     <section id="section-weather-result">   
 <!-- Sección donde se debe mostrar el clima de la ciudad -->
     </section>
